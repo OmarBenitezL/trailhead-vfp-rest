@@ -1,0 +1,16 @@
+<apex:page docType="html-5.0" title="My Business Card">   
+    <div class="bcard" id="body">
+        Name: {!$User.FirstName} {!$User.LastName}
+        Title: {!$User.Title}
+        Email: {!$User.Email}
+        Phone: {!$User.Phone}
+    </div>
+    
+    <div class="bemail">
+        Enter Email: <input type="text" id="email"/>     
+    </div>
+    
+    <div id="result">
+    </div>
+    
+</apex:page>
